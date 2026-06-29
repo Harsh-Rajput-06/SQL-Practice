@@ -1,14 +1,40 @@
 # SQL Interview Practice – ShopSphere E-Commerce Database
 
-## Overview
+## 📌 Overview
 
-This repository contains my hands-on SQL practice using a realistic E-Commerce database named **ShopSphere**.
+This repository documents my hands-on SQL learning journey using a realistic **ShopSphere E-Commerce** database.
 
-The goal of this project is to strengthen SQL skills for Data Analyst, Business Analyst, and Product Analyst roles through practical, interview-focused questions.
+The objective of this project is to strengthen SQL skills for **Data Analyst**, **Data Science**, **Business Analyst**, and **Product Analyst** roles by solving interview-oriented and real-world business SQL problems.
 
-## Database
+---
 
-The project uses a single relational database consisting of:
+## 🛠️ Tech Stack
+
+* MySQL
+* MySQL Workbench
+* Git
+* GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+SQL-Interview-Practice/
+│
+├── Basic_SQL.sql
+├── Intermediate_SQL.sql
+├── README.md
+└── ERD.png (Coming Soon)
+```
+
+---
+
+## 🗄️ Database
+
+The project uses a single relational database throughout all practice levels.
+
+### Tables
 
 * Customers
 * Orders
@@ -17,13 +43,17 @@ The project uses a single relational database consisting of:
 * Categories
 * Payments
 
-The same dataset will be used for Basic, Intermediate, and Advanced SQL practice.
+The same dataset is reused across Basic, Intermediate, and Advanced SQL practice to simulate a real business environment.
 
-## Progress
+---
 
-### ✅ Basic SQL (Completed)
+# ✅ Progress
 
-Topics Covered:
+## Basic SQL (Completed)
+
+**70 Interview Questions**
+
+### Topics Covered
 
 * SELECT
 * WHERE
@@ -33,7 +63,7 @@ Topics Covered:
 * LIKE
 * IN
 * BETWEEN
-* NULL Handling
+* IS NULL
 * Aliases
 * Aggregate Functions
 * GROUP BY
@@ -41,9 +71,13 @@ Topics Covered:
 * String Functions
 * Date Functions
 
-Questions Solved: **70**
+---
 
-### ⏳ Intermediate SQL (Coming Soon)
+## Intermediate SQL (Completed)
+
+**70 Interview & Business SQL Questions**
+
+### Topics Covered
 
 * INNER JOIN
 * LEFT JOIN
@@ -52,11 +86,28 @@ Questions Solved: **70**
 * CROSS JOIN
 * CASE WHEN
 * UNION
+* UNION ALL
 * Subqueries
-* Correlated Subqueries
-* CTEs
+* Correlated Subqueries (Introduction)
+* Common Table Expressions (CTEs)
 
-### ⏳ Advanced SQL (Coming Soon)
+### Business Case Studies
+
+* Top Spending Customers
+* Category-wise Revenue
+* Monthly Sales Analysis
+* Average Order Value (AOV)
+* Customer Lifetime Spending
+* Revenue by City
+* Product Sales Analysis
+* Payment Method Analysis
+* Sales Dashboard KPIs
+
+---
+
+## Advanced SQL (Coming Soon)
+
+Topics Planned
 
 * Window Functions
 * ROW_NUMBER()
@@ -65,16 +116,34 @@ Questions Solved: **70**
 * LEAD()
 * LAG()
 * Running Totals
+* Advanced CTEs
 * Query Optimization
 * Indexes
+* Performance Tuning
+* Advanced Business Analytics
 
-## Tools Used
+---
 
-* MySQL
-* MySQL Workbench
-* Git
-* GitHub
+## 🎯 Learning Goals
 
-## Learning Goal
+* Write SQL queries independently.
+* Solve interview-style SQL problems.
+* Understand SQL from a business perspective.
+* Apply industry-standard SQL practices.
+* Build confidence for Data Analyst and Data Science interviews.
 
-Practice SQL through real business scenarios and interview-style questions while following industry-standard query-writing practices.
+---
+
+## 📈 Current Status
+
+* ✅ Basic SQL Completed
+* ✅ Intermediate SQL Completed
+* ⏳ Advanced SQL In Progress
+
+---
+
+## 📬 Connect With Me
+
+I’m continuously improving my skills in **SQL, Python, Data Analysis, and Data Science** through hands-on projects and interview-focused practice.
+
+If you have suggestions or feedback, feel free to connect!
